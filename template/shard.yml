@@ -1,0 +1,13 @@
+name: {{Name}}
+version: 0.1.0
+
+authors:
+  - José Fco. Rives <jose@digio.es>
+
+targets:
+  template:
+    main: src/{{Name | toLower}}.cr
+
+crystal: 0.32.1
+
+license: MIT
